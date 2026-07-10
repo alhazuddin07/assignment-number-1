@@ -13,6 +13,14 @@
     border-radius: 10px;
     color: #fff;
 }
+.card-left-righ-color{
+    color: #413e3e;
+}
+.black-card{
+    background-color: #0D1B2A;
+    color: #e1dfdf;
+}
+
 
 /* navber style start */
 
@@ -176,10 +184,65 @@ header{
 }
 .card-2{
     padding: 32px;
+    border-radius: 12px;
 }
 .card-item{
     padding-left: 15px;
 }
 .card-2 .card-top-item{
     padding-bottom: 30px;
+}
+.card-top-item p{
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    font-size: 13px;
+    color: #888;
+    padding-bottom: 5px;
+}
+.card-top-item h2{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 44px;
+}
+.card-top-item span{
+    line-height: 19.5px;
+    font-size: 13px;
+    color: #888;
+}
+.card-item ul li{
+    line-height: 25px;
+    font-size: 14px;
+}
+.card-2 .inside-border{
+    width: 305px;
+    height: 1px;
+    border: 1px solid rgba(64, 84, 97, 0.1);
+    margin-bottom: 20px;
+}
+.left-side-btn{
+    border: none;
+    padding: 10px 100px;
+    background-color: #fff;
+    border: 1px solid #1D4ED8;
+    border-radius: 5px;
+    color: #1D4ED8;
+    margin-top: 10px;
+}
+.black-card-btn{
+    border: none;
+    padding: 10px 124px;
+    background-color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+.right-side-btn{
+    border: none;
+    padding: 10px 100px;
+    background-color: #fff;
+    border: 1px solid #1D4ED8;
+    border-radius: 5px;
+    color: #000;
+    margin-top: 10px;
 }
