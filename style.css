@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* common color */
+
+.common-color{
+    background-color: #1D4ED8;
+    padding: 12px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* navber style start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+    background-color: #fff;
+}
+.left-side{
+
+}
+.middle-side{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.middle-side ul{
+    list-style-type: none;
+}
+.middle-side ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.right-side .common-color{
+   border: none;
+}
+
+/* navber style end */
+
+/* Hero section style start */
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+}
+.header-section{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.header-section h1{
+    font-size: 80px;
+    padding-bottom: 30px;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+}
+.header-section p{
+    padding: 0 27%;
+    line-height: 24px;
+    font-size: 20px;
+    color: #b7b5b5;
+}
+.header-section button{
+    margin-top: 32%;
+    padding: 16px;
+    background-color: #1D4ED8;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+/* Hero section style end */
+
+/* Meet the speakers style start */
+
+.speakers{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.speakers h1{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:50px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    border: 1px solid rgba(100, 185, 247, 0.5);
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+}
+
+.card-body{
+    padding:22px;
+}
+
+.common-color-2{
+    color:#5a78d6;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.card h3{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.card-body p:last-child{
+    color:#666;
+    font-size:17px;
+}
+/* Meet the speakers style end */
