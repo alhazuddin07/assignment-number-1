@@ -141,3 +141,45 @@ header{
     font-size:17px;
 }
 /* Meet the speakers style end */
+
+/* secure your spot style start */
+
+.pricing-parent h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.pricing-parent .subtitle{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575757;
+}
+
+.pricing-parent{
+    height: 90vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.pricing-container .card-2{
+    height: 400px;
+    width: 370px;
+    border: 1px solid rgba(100, 185, 247, 0.5);
+}
+.card-2{
+    padding: 32px;
+}
+.card-item{
+    padding-left: 15px;
+}
+.card-2 .card-top-item{
+    padding-bottom: 30px;
+}
