@@ -67,7 +67,7 @@ header{
 .header-section{
     color: white;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 130px;
 }
 .header-section h1{
     font-size: 80px;
@@ -82,7 +82,7 @@ header{
     color: #b7b5b5;
 }
 .header-section button{
-    margin-top: 32%;
+    margin-top: 27%;
     padding: 16px 25px;
     background-color: #1D4ED8;
     color: #fff;
@@ -338,14 +338,15 @@ header{
 
 footer{
     background-color: #0D1B2A;
-    color: #fff;
 }
 .card-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    margin: 10px 8%;
+    margin: 0 8%;
+    color: #fff;
+
 }
 .card-footer-list{
     display: flex;
@@ -356,6 +357,34 @@ footer{
     list-style: none;
 }
 .card-footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: #8f6d94;
+    margin: 0 10% 60px 10%;
+}
+
+footer .copyright-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 60px 10%;                   
+    color: #fff;
+}
+
+.copyright-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.copyright-container ul li{
+    list-style: none;
+}
+.copyright-container ul li a{
     text-decoration: none;
     color: #fff;
 }
