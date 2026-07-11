@@ -81,7 +81,7 @@ header{
     color: #b7b5b5;
 }
 .header-section button{
-    margin-top: 32%;
+    margin-top: 20%;
     padding: 16px;
     background-color: #1D4ED8;
     color: #fff;
@@ -246,3 +246,113 @@ header{
     color: #000;
     margin-top: 10px;
 }
+
+/* Secure your spot style end */
+
+  /* Ai generated style start */
+
+.event-statistics{
+
+    width:90%;
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.statistics-title{
+
+    text-align:center;
+    font-size:48px;
+    color:#111827;
+    margin-bottom:12px;
+
+}
+
+.statistics-subtitle{
+
+    text-align:center;
+    font-size:18px;
+    color:#6b7280;
+    margin-bottom:60px;
+
+}
+
+.statistics-container{
+
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.attendees-card,
+.speakers-card,
+.countries-card,
+.sessions-card{
+
+    background: linear-gradient(to left, hotpink, #52eadb, #f208f2);
+    border: 1px solid rgb(126, 251, 245);
+    border-radius: 18px;
+    padding: 40px 20px;
+    text-align :center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: .3s;
+
+}
+
+.attendees-card:hover,
+.speakers-card:hover,
+.countries-card:hover,
+.sessions-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.attendees-icon,
+.speakers-icon,
+.countries-icon,
+.sessions-icon{
+
+    width:80px;
+    height:80px;
+
+    margin:auto;
+
+    border-radius:50%;
+
+    background:#2563eb;
+
+    color:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
+}
+
+.attendees-number,
+.speakers-number,
+.countries-number,
+.sessions-number{
+
+    font-size:42px;
+    color:#111827;
+    margin-bottom:10px;
+
+}
+
+.attendees-text,
+.speakers-text,
+.countries-text,
+.sessions-text{
+
+    font-size:20px;
+    color:#6b7280;
+
+}
+
+/* Ai generated style end */
