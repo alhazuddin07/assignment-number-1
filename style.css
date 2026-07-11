@@ -81,7 +81,7 @@ header{
     color: #b7b5b5;
 }
 .header-section button{
-    margin-top: 20%;
+    margin-top: 25%;
     padding: 16px;
     background-color: #1D4ED8;
     color: #fff;
@@ -255,7 +255,7 @@ header{
 
     width:90%;
     max-width:1200px;
-    margin: 0 auto;
+    margin: -60px auto 20px auto;
 }
 
 .statistics-title{
@@ -277,7 +277,6 @@ header{
 }
 
 .statistics-container{
-
     display:grid;
     grid-template-columns:repeat(4, 1fr);
     gap: 20px;
