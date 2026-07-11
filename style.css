@@ -66,7 +66,7 @@ header{
 .header-section{
     color: white;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .header-section h1{
     font-size: 80px;
@@ -75,13 +75,13 @@ header{
     letter-spacing: 3.2px;
 }
 .header-section p{
-    padding: 0 27%;
+    padding: 0 28%;
     line-height: 24px;
     font-size: 20px;
     color: #b7b5b5;
 }
 .header-section button{
-    margin-top: 25%;
+    margin-top: 22%;
     padding: 16px;
     background-color: #1D4ED8;
     color: #fff;
