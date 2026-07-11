@@ -9,8 +9,9 @@
 
 .common-color{
     background-color: #1D4ED8;
-    padding: 12px;
+    padding: 12px 15px;
     border-radius: 10px;
+    font-size: 16px;
     color: #fff;
 }
 .card-left-righ-color{
@@ -81,13 +82,13 @@ header{
     color: #b7b5b5;
 }
 .header-section button{
-    margin-top: 22%;
-    padding: 16px;
+    margin-top: 32%;
+    padding: 16px 25px;
     background-color: #1D4ED8;
     color: #fff;
     border-radius: 10px;
     border: none;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /* Hero section style end */
@@ -176,6 +177,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin-bottom: -100px;
 }
 .pricing-container .card-2{
     height: 400px;
@@ -251,107 +253,109 @@ header{
 
   /* Ai generated style start */
 
-.event-statistics{
-
-    width:90%;
-    max-width:1200px;
-    margin: -60px auto 20px auto;
+.sponsors{
+    width: 90%;
+    max-width: 1200px;
+    margin: -200px auto 100px auto;
 }
 
-.statistics-title{
-
-    text-align:center;
+.sponsors-title{
     font-size:48px;
+    text-align:center;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.sponsors-subtitle{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+    color:#6b7280;
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:60px;
+}
+
+.sponsors-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.google-card,
+.microsoft-card,
+.github-card,
+.aws-card,
+.docker-card,
+.vercel-card{
+
+    background:#e3abab;
+    border:1px solid #e5e7eb;
+    border-radius:18px;
+    padding:35px 25px;
+    text-align:center;
+    transition:.3s;
+}
+
+.google-card img,
+.microsoft-card img,
+.github-card img,
+.aws-card img,
+.docker-card img,
+.vercel-card img{
+
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+
+.google-card h3,
+.microsoft-card h3,
+.github-card h3,
+.aws-card h3,
+.docker-card h3,
+.vercel-card h3{
+
+    font-size:24px;
     color:#111827;
     margin-bottom:12px;
-
 }
 
-.statistics-subtitle{
+.google-card p,
+.microsoft-card p,
+.github-card p,
+.aws-card p,
+.docker-card p,
+.vercel-card p{
 
-    text-align:center;
-    font-size:18px;
     color:#6b7280;
-    margin-bottom:60px;
-
-}
-
-.statistics-container{
-    display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap: 20px;
-
-}
-
-.attendees-card,
-.speakers-card,
-.countries-card,
-.sessions-card{
-
-    background: linear-gradient(to left, hotpink, #52eadb, #f208f2);
-    border: 1px solid rgb(126, 251, 245);
-    border-radius: 18px;
-    padding: 40px 20px;
-    text-align :center;
-    box-shadow: 0 10px 30px rgba(0,0,0,.08);
-    transition: .3s;
-
-}
-
-.attendees-card:hover,
-.speakers-card:hover,
-.countries-card:hover,
-.sessions-card:hover{
-
-    transform:translateY(-8px);
-
-}
-
-.attendees-icon,
-.speakers-icon,
-.countries-icon,
-.sessions-icon{
-
-    width:80px;
-    height:80px;
-
-    margin:auto;
-
-    border-radius:50%;
-
-    background:#2563eb;
-
-    color:#fff;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    font-size:34px;
-
-    margin-bottom:25px;
-
-}
-
-.attendees-number,
-.speakers-number,
-.countries-number,
-.sessions-number{
-
-    font-size:42px;
-    color:#111827;
-    margin-bottom:10px;
-
-}
-
-.attendees-text,
-.speakers-text,
-.countries-text,
-.sessions-text{
-
-    font-size:20px;
-    color:#6b7280;
-
+    line-height:28px;
+    font-size:16px;
 }
 
 /* Ai generated style end */
+
+footer{
+    background-color: #0D1B2A;
+    color: #fff;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 10px 8%;
+}
+.card-footer-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.card-footer ul li{
+    list-style: none;
+}
+.card-footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}

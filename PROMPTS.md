@@ -1,1 +1,1 @@
-Create an event statistics layout for a developer conference website featuring four cards: Attendance, Speakers, Countries, and Sessions. Each card should contain an icon and the corresponding user count. The cards should feature a linear gradient background and an RGBA border. Include a main title ("Event Statistics") and a subtitle ("Numbers that define our conference"). Build this using only HTML and CSS.
+I am building a developer conference event statistics website. create a section based on the sponsor using HTML and CSS.
